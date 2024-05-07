@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body-container{
+    margin: 100px auto;
+    max-width: 790px;
+    display: flex;
+    padding: 10px;
+}
+.container{
+    padding: 40px;
+}
+.sedans-container{
+    background-color:  hsl(31, 77%, 52%);
+}
+.icon-container img{
+    width: 25%;
+}
+.accessories-text h1{
+    margin: 20px 0;
+    font-size: 40px;
+    font-family: "Big Shoulders Display", sans-serif;
+}
+.accessories-text p{
+    line-height: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.accessories-text{
+    margin-bottom: 60px;
+    color: white;
+    font-size: 15px;
+}
+.learn-more-btn{
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.learn-more-btn:focus{
+    outline: none;
+}
+.learn-more-btn:hover{
+   border: 2px solid #fff;
+   color: #fff;
+   background-color: transparent;
+}
+.suvs-container{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury-container{
+    background-color: hsl(179, 100%, 13%);
+    /* border-radius: 0 10px 10px 0; */
+}
+.btn-orange {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-cyan {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-dark-cyan {
+  color: hsl(179, 100%, 13%);
+}
+@media screen and (max-width: 375px){
+    .body-container{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}
